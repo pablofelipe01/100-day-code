@@ -11,41 +11,79 @@
     
 // }
 
-// const scores2 = [
-//     {
-//         name: 'Pablo',
-//         grade: 10
-//     },
+const scores2 = [
+    {
+        name: 'Pablo',
+        grade: 10
+    },
 
-//     {
-//         name: 'Zeus',
-//         grade: 20
-//     },
+    {
+        name: 'Zeus',
+        grade: 20
+    },
 
-//     {
-//         name: 'Pandora',
-//         grade: 30
-//     },
+    {
+        name: 'Pandora',
+        grade: 30
+    },
 
-//     {
-//         name: 'Lili',
-//         grade: 40
-//     }
-// ]
+    {
+        name: 'Lili',
+        grade: 40
+    }
+]
 
 // for (let i = 0; i < scores2.length; i++) {
 //    let student = scores2[i]
 //     console.log(`${student.name} scored ${student.grade}`)
 // }
 
-const world = 'GlobalWorming'
+// const world = 'gnimroW labolG'
+// let reverseWord = ''
 
-for (let i = world.length -1; i >= 0; i--) {
+// for (let i = world.length -1; i >= 0; i--) {
     
-    console.log(world[i])
-}
+//     reverseWord += world[i]
+//     console.log(reverseWord)
+// }
 
-for (let i = 0; i < world.length; i++) {
-   console.log(world[i])
+
+// let total = 0
+// for (let i = 0; i < scores2.length; i++) {
+//    let score = scores2[i]
+//   total += score.grade 
     
+// }
+// console.log(total/scores2.length)
+
+// for (let i = 1; i <= 10; i++) {
+//     console.log('Outer loop:', i)
+
+//     for (let j = 10; j >= 0; j-=2) {
+//         console.log('      Inner loop:', j)
+        
+        
+//     }
+    
+// }
+
+const gameBoard = [
+    [4, 32, 16, 4],
+    [8, 16, 64, 8],
+    [8, 32, 16, 4],
+    [2, 8, 64, 8]
+]
+let totalScore = 0
+for (let i = 0; i < gameBoard.length; i++) {
+    let row = gameBoard[i]
+    // console.log(row)
+
+    for (let j = 0; j < row.length; j++) {
+        totalScore += row[j]
+        
+        // console.log(row[j])
+    }
 }
+console.log(totalScore)
+
+
