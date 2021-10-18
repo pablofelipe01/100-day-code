@@ -11,29 +11,41 @@
     
 // }
 
-const scores2 = [
-    {
-        name: 'Pablo',
-        grade: 10
-    },
+// const scores2 = [
+//     {
+//         name: 'Pablo',
+//         grade: 10
+//     },
 
-    {
-        name: 'Zeus',
-        grade: 20
-    },
+//     {
+//         name: 'Zeus',
+//         grade: 20
+//     },
 
-    {
-        name: 'Pandora',
-        grade: 30
-    },
+//     {
+//         name: 'Pandora',
+//         grade: 30
+//     },
 
-    {
-        name: 'Lili',
-        grade: 40
-    }
-]
+//     {
+//         name: 'Lili',
+//         grade: 40
+//     }
+// ]
 
-for (let i = 0; i < scores2.length; i++) {
-   let student = scores2[i]
-    console.log(`${student.name} scored ${student.grade}`)
+// for (let i = 0; i < scores2.length; i++) {
+//    let student = scores2[i]
+//     console.log(`${student.name} scored ${student.grade}`)
+// }
+
+const world = 'GlobalWorming'
+
+for (let i = world.length -1; i >= 0; i--) {
+    
+    console.log(world[i])
+}
+
+for (let i = 0; i < world.length; i++) {
+   console.log(world[i])
+    
 }
